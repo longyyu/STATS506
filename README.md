@@ -9,7 +9,7 @@ Stats506_F20 repository: https://github.com/jbhender/Stats506_F20/tree/master
 Yanyu Long: https://github.com/longyyu/Stats506_public  
 Ran Yan: https://github.com/Ranynola/Stats506_public  
 
-* Week1 - Linux Shell Skills 
+* Week1 - Linux Shell Skills   
 Create cutnames.sh to extract variables from .csv table.    
 * Week2 - R  
 Go over R basic concepts.  
