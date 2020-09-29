@@ -20,3 +20,7 @@ Group members: [Yanyu Long](https://github.com/longyyu/Stats506_public),
   * Created repository 'Stats506_public' on Github
   * Updated codes from week 1 activities to 'Stats506_public/activities/week1'
   * Practiced markdown skills by creating README.md files
+
+### Weeks 4-6
+Group members: [Yanyu Long](https://github.com/longyyu/Stats506_public), [Yawen Hu](https://github.com/yawenh/Stats506_public)
+
