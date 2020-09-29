@@ -1,6 +1,6 @@
 ---
 title: "Week 4 Activity"
-author: 'Group 1: Yanyu LonG'
+author: 'Group 1: Yanyu Long, Yawen Hu'
 date: "9/29/2020"
 output: html_document
 ---
