@@ -9,3 +9,7 @@
   * cutnames.sh: 
     * takes two arguments, `file` and `pattern`
     * returns the extracted columns (output path specified elsewhere)
+
+* Week 4 ([Specifications](https://github.com/jbhender/Stats506_F20/tree/master/activities/week4))
+  * week4_part1.sh
+    * to be continue... 
