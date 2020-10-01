@@ -1,7 +1,7 @@
 ---
 title: "Week 4 Activity, Part 2"
-author: 'Group X: A, B, C, D'
-date: "9/29/2020"
+author: 'Group 1: Yanyu Long, Yawen Hu'
+date: "`r format.Date(Sys.Date(), '%B %d, %Y')`"
 output: html_document
 ---
   
@@ -22,6 +22,7 @@ shape for plotting.
 library(tidyverse)
 
 # read in summary results
+setwd("E:/git/Stats506_public/activities/week4")
 q2_df = readr::read_delim("./w4_p2_RECS2015_internet.csv", delim = ",")
 ```
 
@@ -33,7 +34,7 @@ plot_data = q2_df %>%
   mutate( rurality = stringr::str_replace_all(var, '_.*', ''),
           type = ifelse( grepl('_', var), 
                          stringr::str_replace_all(var, '.*_', ''),
-                         'est'
+                         'est' # estimation
           )
   ) %>%
   pivot_wider(id_cols = c('division', 'rurality'), 
@@ -49,11 +50,22 @@ cap = paste("**Figure 1.** *Proportion of homes with internet access in each",
 
 # Use ggplot to produce a figure `p1` matching what is shown using the
 #  data above. 
-#p1 = ...
+p1 = ggplot(data = plot_data %>% filter(rurality != 'diff'), 
+            aes(x = division, ymin = lwr, y = est, ymax = upr,
+                color = rurality)) +
+       theme_bw() + 
+       geom_point(size = 2, position = position_dodge(width = 0.5)) + 
+       geom_errorbar(width = 0.75,
+                     position = position_dodge(width = 0.5)) +
+       scale_color_manual(values = c("#820e0b", "#01178b")) + 
+       ylab("Proportion of homes with internet access.") + 
+       coord_flip() + 
+       theme()
 
 # Remove comments to plot and save
-#ggsave(p1, 'w4_p2_q1_plot.png')
-#p1
+# ggsave(p1, filename = "w4_p2_q1_plot.png",
+#        width = 7, height = 5, dpi = 150)
+p1
 ```
 
 2. Write code where indicated to match the second figure included in the README.
@@ -63,10 +75,18 @@ cap = paste("**Figure 2.** *Difference (urban less rural) in proportion of",
 
 # Use ggplot to produce a figure `p2` matching what is shown using the
 #  data above. 
-#p2 = 
+p2 = ggplot(data = plot_data %>% filter(rurality == 'diff'), 
+            aes(x = division, ymin = lwr, y = est, ymax = upr)) +
+       theme_bw() + 
+       geom_point(size = 2) + 
+       geom_errorbar(width = 0.75) +
+       ylab("Difference in proportion of homes with internet access.") + 
+       coord_flip() + 
+       geom_hline(aes(yintercept = 0), linetype = 2) + 
+       theme()
 
 # Remove comments to plot and save
-#ggsave(p2, 'w4_p2_q2_plot.png')
-#p2
-
+# ggsave(p2, filename = 'w4_p2_q2_plot.png',
+#        width = 7, height = 5, dpi = 150)
+p2
 ```
