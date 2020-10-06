@@ -22,5 +22,4 @@ Group members: [Yanyu Long](https://github.com/longyyu/Stats506_public),
   * Practiced markdown skills by creating README.md files
 
 ### Weeks 4-6
-Group members: [Yanyu Long](https://github.com/longyyu/Stats506_public), [Yawen Hu](https://github.com/yawenh/Stats506_public)
-
+Group members: [Yanyu Long](https://github.com/longyyu/Stats506_public), [Yawen Hu](https://github.com/yawenh/Stats506_public), [Rithu Uppalapati](https://github.com/rurithu/Stats506_public), Chen Shang
