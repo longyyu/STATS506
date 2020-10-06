@@ -11,7 +11,8 @@
     * returns the extracted columns (output path specified elsewhere)
 
 * Week 4 ([Specifications](https://github.com/jbhender/Stats506_F20/tree/master/activities/week4))
-  * Part 2 (ggplot2)
+  * week4_part1.Rmd (dplyr)
+  * week4_part2.Rmd (ggplot2)
     ![q1](./week4/w4_p2_q1_plot.png)  
     ![q2](./week4/w4_p2_q2_plot.png)  
 
