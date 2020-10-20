@@ -166,7 +166,7 @@ if ( TEST ) {
   recs_mean1(recs_core, vars = c('temp_home', 'temp_gone', 'temp_night'),
            group = 'region')
 
- ## pivot to a longer format
+  ## pivot to a longer format
   df = recs_core %>%
     select(id, weight, region, starts_with('temp_') ) %>%
     pivot_longer( 
