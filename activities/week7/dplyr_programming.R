@@ -83,7 +83,7 @@ temps_by_region0 =
     .groups = 'drop'
   )
 
-# task 1 - replace the repetition above using `across()`
+## task 1 - replace the repetition above using `across()`
 temps_by_region1 = recs_core %>%
  group_by(region) %>%
  summarize(
@@ -120,7 +120,7 @@ add_groups = function(df, groups = NULL) {
   # Inputs:
   #   df - an object inheriting from the data.frame class, commonly a tibble
   #   groups - (optional, defaults to NULL) a character vector of column
-  #    names in df to form groups by.
+  #     names in df to form groups by.
   
   if (!is.null(groups)){
     stopifnot(all(groups %in% names(df)))
