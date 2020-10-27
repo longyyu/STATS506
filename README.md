@@ -22,10 +22,10 @@
   * Updated codes from week 1 activities to `Stats506_public/activities/week1`
   * Practiced markdown skills by creating `README.md` files
 
-### Weeks 4-6
+### Weeks 4-7
 **Group members:** [Yanyu Long](https://github.com/longyyu/Stats506_public), [Yawen Hu](https://github.com/yawenh/Stats506_public), [Rithu Uppalapati](https://github.com/rurithu/Stats506_public), [Chen Shang](https://github.com/ChenShangUmich/Stats506_public)  
 
-### Week 7 (Group project)  
+### Week 8 (Group project)  
 * **Group members** 
   * [EunSeon Ahn](https://github.com/EunseonAhn/Stats506_public)
   * [Tianshi Wang](https://github.com/SkyWang0919/Stats506_public)
