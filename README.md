@@ -1,6 +1,8 @@
 # Stats506_public  
 
 ## About  
+This is the public repo for **STATS 506 (Computational Methods and Tools in Statistics), F20** at the University of Michigan.  
+
 * [Course Homepage](https://jbhender.github.io/Stats506/F20/)
 * [Stats506_F20 Repo](https://github.com/jbhender/Stats506_F20/tree/master)
 * [Midterm Group Project Repo](https://github.com/SkyWang0919/STATS-506-Midterm-Project-02)
