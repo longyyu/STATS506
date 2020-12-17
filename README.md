@@ -25,7 +25,10 @@
   * Practiced markdown skills by creating `README.md` files
 
 ### Weeks 4-7
-**Group members:** [Yanyu Long](https://github.com/longyyu/Stats506_public), [Yawen Hu](https://github.com/yawenh/Stats506_public), [Rithu Uppalapati](https://github.com/rurithu/Stats506_public), [Chen Shang](https://github.com/ChenShangUmich/Stats506_public)  
+**Group members:** 
+[Yawen Hu](https://github.com/yawenh/Stats506_public), 
+[Rithu Uppalapati](https://github.com/rurithu/Stats506_public), 
+[Chen Shang](https://github.com/ChenShangUmich/Stats506_public)  
 
 ### Week 8  
 **Group members:** 
