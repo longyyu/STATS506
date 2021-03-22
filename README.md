@@ -41,3 +41,5 @@ This is the public repo for **STATS 506 (Computational Methods and Tools in Stat
 * **Week 9 - Regular Expression Crosswords**  
 * **Week 10 - data.table, SQL, and dplyr translation**  
 
+The week 10 activity uses the Lahman data from the R library `Lahman`, and provides 7 data manipulation examples for us to accomplish using `data.table`, `SQL`, or `dplyr` code.  
+
